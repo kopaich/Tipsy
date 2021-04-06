@@ -18,14 +18,12 @@ class CalculatorViewController: UIViewController {
     var tipsAmount: Double = 0.1
     var resultValue: Double = 0.0
     var splitValue: Int = 2
-    
     var tipsyBrain = TipsyBrain()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //        splitNumberLabel.text = "1"
+
     }
     
     @IBAction func tipChanged(_ sender: UIButton) {
